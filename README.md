@@ -9,7 +9,7 @@ This is a proof of concept project to determine the viability for communication 
 From tv remotes to optical fibers light has been used to transfer data for a decades now.
 The approach of this project however is in long range communication . One application of this could be deep space communication.
 In fact Nasa conducted such an experiment not that long ago .
-You can read more on that [here]([https://pages.github.com/](https://www.jpl.nasa.gov/news/nasas-deep-space-optical-comm-demo-sends-receives-first-data)https://www.jpl.nasa.gov/news/nasas-deep-space-optical-comm-demo-sends-receives-first-data)
+You can read more on that [here](https://www.jpl.nasa.gov/news/nasas-deep-space-optical-comm-demo-sends-receives-first-data)
 
 ## Part 1 - Hardware 
 Searching the internet for similar projects to what I had in mind I could not find something that fulfilled my requirements.
@@ -53,3 +53,11 @@ A typical baudrate for uart is 115200 much much higher than what i was able to p
    The issue thus was the transmitter and specifically the laser diode. It comes with its own power management circuitry to ensure that the laser diode doesnt burn out .
    This is a double edged knife since it means that I didnt have to worry about powering the diode but at the same time the circuit was probably not designed for high frequency pulsing
    and as result bottlenecked my solution.
+
+## Sources
+[1](https://www.youtube.com/watch?v=U-6YxTNeNCo)
+[2](https://www.scirp.org/journal/paperinformation.aspx?paperid=80019)
+[3](https://www.youtube.com/watch?v=0b9Rt8rd5-8)
+[4](https://www.youtube.com/watch?v=OMnZehJNGCY)
+[5](https://www.youtube.com/watch?v=FtdJ4e973bk)
+[6](https://www.networkworld.com/article/3301294/nasa-to-use-data-lasers-to-beam-data-from-space-to-earth.html)
